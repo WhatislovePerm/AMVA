@@ -1,0 +1,58 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+
+@model Alcotripnics.Models.SellCardViewModel
+}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <form method="post" asp-controller="Inventory" asp-action="SellCard" class="bi-align-center">
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="form-group bg-dark">
+            <label asp-for="Price" class="text-white"></label>
+            <input type="text" asp-for="Price" class="form-control bg-warning" placeholder="" aria-describedby="helpId">
+            <span class="card bg-danger border border-5 col-md-2 col @Model.CardRarityEnum" asp-controller="Inventory" asp-action="SellCard">
+                <a></a>
+                <span class="row h1"></span>
+                <img src="@Model.ImageSource" class="card-img-top row rounded-pill" />
+                <span class="card-body text-center block row">
+                    <span class="card-title text-center text-white col-md-8 offset-2 row">@Model.Name</span>
+                    <span class="card-text text-md-center text-black col-md-8 offset-2 row">@Model.Title</span>
+                </span>
+
+            </span>
+            <label asp-for="ImageSource" hidden class="text-white"></label>
+            <input type="text" asp-for="ImageSource" hidden />
+            <label asp-for="CardId" hidden class="text-white"></label>
+            <input type="text" asp-for="CardId" hidden />
+            <label asp-for="CardRarityEnum" hidden class="text-white"></label>
+            <input type="text" asp-for="CardRarityEnum" hidden />
+            <label asp-for="Name" hidden class="text-white"></label>
+            <input type="text" asp-for="Name" hidden />
+            <label asp-for="Title" hidden class="text-white"></label>
+            <input type="text" asp-for="Title" hidden />
+            <div class="bg-warning">
+                <input type="submit" value="Выставить на продажу" />
+            </div>
+        </div>
+
+        </form>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

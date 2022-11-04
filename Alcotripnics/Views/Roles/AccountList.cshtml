@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Alcotripnics.Data.Entity.Account>
+
+<h2>Список пользователей</h2>
+<table class="table">
+    @foreach (var account in Model)
+    {
+        <tr>
+            <td>@account.Login</td>
+            <td>
+                <a class="btn btn-sm btn-primary" asp-action="Edit" asp-route-accountid="@account.Id">Права доступа</a>
+            </td>
+        </tr>
+    }
+</table>

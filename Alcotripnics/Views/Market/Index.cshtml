@@ -1,0 +1,60 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    @model IEnumerable<Alcotripnics.Data.Entity.Offer>
+}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Магазин</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Продавец</th>
+                <th>Цена</th>
+                <th>Дата публикации лота</th>
+                <th>Карточка</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var offer in Model)
+             {
+                <tr>
+                    <td>@offer.Seller</td>
+                    <td>@offer.Price</td>
+                    <td>@offer.DateOfCreated</td>
+                    <td><lable class="bold">@offer.Card.Name</lable><a></a> @offer.Card.Title</td>
+                    <td>
+                        <form class="btn btn-sm btn-success text-dark" method="post" asp-controller="Market" asp-action="Buy" asp-route-offerid="@offer.Id">
+                            @if (User.Identity.Name != offer.Seller.UserName)
+                            {
+                                <input type="submit" value="Купить" />
+                            }
+                            else
+                            {
+                                <input type="submit" value="Вернуть в инвентарь" />
+                            }
+                        </form>
+                    </td>
+                </tr>
+             }
+        </tbody>
+    </table>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

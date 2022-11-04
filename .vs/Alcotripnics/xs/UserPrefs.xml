@@ -1,0 +1,113 @@
+﻿<Properties StartupConfiguration="{125D4131-A862-4CB5-AC1A-0A557FEE0278}|Alcotripnics">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Alcotripnics.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/vandreev/Projects/Alcotripnics/Alcotripnics/Controllers/MarketController.cs" relfile="Alcotripnics/Controllers/MarketController.cs" line="56" column="1" />
+      <Breakpoint file="/Users/vandreev/Projects/Alcotripnics/Alcotripnics/Controllers/AccountController.cs" relfile="Alcotripnics/Controllers/AccountController.cs" line="55" column="1" />
+      <Breakpoint file="/Users/vandreev/Projects/Alcotripnics/Alcotripnics/Controllers/AccountController.cs" relfile="Alcotripnics/Controllers/AccountController.cs" line="52" column="1" />
+      <Breakpoint file="/Users/vandreev/Projects/Alcotripnics/Alcotripnics/Controllers/InventoryController.cs" relfile="Alcotripnics/Controllers/InventoryController.cs" line="87" column="1" />
+      <Breakpoint file="/Users/vandreev/Projects/Alcotripnics/Alcotripnics/Controllers/MarketController.cs" relfile="Alcotripnics/Controllers/MarketController.cs" line="41" column="1" />
+      <Breakpoint file="/Users/vandreev/Projects/Alcotripnics/Alcotripnics/Controllers/MarketController.cs" relfile="Alcotripnics/Controllers/MarketController.cs" line="51" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Alcotripnics/Controllers/MarketController.cs">
+    <Files>
+      <File FileName="Alcotripnics/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="Alcotripnics/Controllers/HomeController.cs" Line="13" Column="26" />
+      <File FileName="Alcotripnics/wwwroot/css/site.css" Line="1" Column="1" />
+      <File FileName="Alcotripnics/wwwroot/lib/bootstrap/dist/css/bootstrap.css" Line="619" Column="1" />
+      <File FileName="Alcotripnics/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" Line="1" Column="1" />
+      <File FileName="Alcotripnics/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" Line="1" Column="1" />
+      <File FileName="Alcotripnics/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" Line="1" Column="1" />
+      <File FileName="Alcotripnics/Controllers/InventoryController.cs" Line="98" Column="57" />
+      <File FileName="Alcotripnics/Properties/launchSettings.json" Line="14" Column="28" />
+      <File FileName="Alcotripnics/Views/_ViewImports.cshtml" Line="1" Column="1" />
+      <File FileName="Alcotripnics/Views/_ViewStart.cshtml" Line="1" Column="1" />
+      <File FileName="Alcotripnics/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+      <File FileName="Alcotripnics.DAL/DataContext/ApplicationDataContext.cs" Line="15" Column="1" />
+      <File FileName="Alcotripnics.DAL/Entity/Card.cs" Line="16" Column="1" />
+      <File FileName="Alcotripnics.DAL/Repository/ICardRepository.cs" Line="9" Column="6" />
+      <File FileName="Alcotripnics.DAL/Repository/IBaseRepository.cs" Line="10" Column="6" />
+      <File FileName="Alcotripnics/Enums/CardRarityEnum.cs" Line="10" Column="19" />
+      <File FileName="Alcotripnics/Views/Inventory/Index.cshtml" Line="59" Column="12" />
+      <File FileName="Alcotripnics/Program.cs" Line="68" Column="1" />
+      <File FileName="Alcotripnics.DAL/Repository/Implementation/CardRepository.cs" Line="5" Column="53" />
+      <File FileName="Alcotripnics.DAL/Repository/Implementation/BaseRepository.cs" Line="17" Column="15" />
+      <File FileName="Alcotripnics/Controllers/AccountController.cs" Line="58" Column="18" />
+      <File FileName="Alcotripnics/Startup.Cs" Line="54" Column="54" />
+      <File FileName="Alcotripnics/Views/Account/Login.cshtml" Line="42" Column="1" />
+      <File FileName="Alcotripnics/Views/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="Alcotripnics/Views/Shared/_Layout.cshtml" Line="26" Column="42" />
+      <File FileName="Alcotripnics/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Alcotripnics/appsettings.json" Line="10" Column="51" />
+      <File FileName="Alcotripnics/Views/Shared/_Layout.cshtml.css" Line="1" Column="1" />
+      <File FileName="Alcotripnics/Models/CardViewModel.cs" Line="37" Column="12" />
+      <File FileName="Alcotripnics.DAL/Entity/ApplicationUser.cs" Line="13" Column="1" />
+      <File FileName="Alcotripnics.DAL/Entity/ApplicationRole.cs" Line="9" Column="1" />
+      <File FileName="Alcotripnics.DAL/Identity/ApplicationUserManager.cs" Line="13" Column="6" />
+      <File FileName="Alcotripnics.DAL/Identity/ApplicationRoleManager.cs" Line="9" Column="6" />
+      <File FileName="Alcotripnics/Data/DataContext/ApplicationDataContext.cs" Line="19" Column="1" />
+      <File FileName="Alcotripnics/Data/Entity/Card.cs" Line="17" Column="1" />
+      <File FileName="Alcotripnics/Data/Repository/IAccountRepository.cs" Line="4" Column="1" />
+      <File FileName="Alcotripnics/Data/Repository/IBaseRepository.cs" Line="13" Column="36" />
+      <File FileName="Alcotripnics/Data/Repository/ICardRepository.cs" Line="8" Column="37" />
+      <File FileName="Alcotripnics/Data/Repository/Implementation/AccountRepository.cs" Line="5" Column="31" />
+      <File FileName="Alcotripnics/Data/Repository/Implementation/BaseRepository.cs" Line="15" Column="26" />
+      <File FileName="Alcotripnics/Data/Repository/Implementation/CardRepository.cs" Line="15" Column="49" />
+      <File FileName="Alcotripnics/Controllers/MarketContoller.cs" Line="49" Column="47" />
+      <File FileName="Alcotripnics/Models/OfferViewModel.cs" Line="12" Column="46" />
+      <File FileName="Alcotripnics/Models/ChangeRoleViewModel.cs" Line="1" Column="1" />
+      <File FileName="Alcotripnics/Models/LoginViewModel.cs" Line="1" Column="1" />
+      <File FileName="Alcotripnics/Models/RegistrationViewModel.cs" Line="1" Column="1" />
+      <File FileName="Alcotripnics/Data/Entity/Offer.cs" Line="26" Column="6" />
+      <File FileName="Alcotripnics/Data/Repository/Implementation/OfferRepository.cs" Line="24" Column="36" />
+      <File FileName="Alcotripnics/Data/Entity/Account.cs" Line="12" Column="70" />
+      <File FileName="Alcotripnics/Controllers/RolesController.cs" Line="15" Column="7" />
+      <File FileName="Alcotripnics/Data/Repository/IOfferRepository.cs" Line="10" Column="43" />
+      <File FileName="Alcotripnics/Views/Market/Index.cshtml" Line="38" Column="119" />
+      <File FileName="Alcotripnics/Views/Roles/AccountList.cshtml" Line="10" Column="76" />
+      <File FileName="Alcotripnics/Views/Roles/Index.cshtml" Line="19" Column="41" />
+      <File FileName="Alcotripnics/Views/Roles/Create.cshtml" Line="1" Column="1" />
+      <File FileName="Alcotripnics/Views/Roles/Edit.cshtml" Line="1" Column="1" />
+      <File FileName="Alcotripnics/Data/Entity/AccountCards.cs" Line="21" Column="38" />
+      <File FileName="Alcotripnics/Data/Repository/Implementation/AccountCardRepository.cs" Line="16" Column="24" />
+      <File FileName="Alcotripnics/Data/Repository/IApplicationDbContext.cs" Line="3" Column="26" />
+      <File FileName="Alcotripnics/Models/SellCardViewModel.cs" Line="10" Column="20" />
+      <File FileName="Alcotripnics/Views/Inventory/SellingCard.cshtml" Line="30" Column="63" />
+      <File FileName="Alcotripnics/Views/Account/Register.cshtml" Line="1" Column="1" />
+      <File FileName="Alcotripnics/Data/Repository/IAccountCardRepository.cs" Line="3" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Alcotripnics" expanded="True">
+            <Node name="Alcotripnics.WebApp" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Data" expanded="True">
+                <Node name="DataContext" expanded="True" />
+                <Node name="Entity" expanded="True" />
+                <Node name="Repository" expanded="True">
+                  <Node name="Implementation" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Account" expanded="True" />
+                <Node name="Inventory" expanded="True" />
+                <Node name="Market" expanded="True" />
+                <Node name="Roles" expanded="True" />
+              </Node>
+              <Node name=".DS_Store" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
